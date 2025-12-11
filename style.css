@@ -1,0 +1,87 @@
+.navbar {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 60px;
+	background: #FFE4C4;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0  25px;
+	box-sizing: border-box;
+	z-index: 1000;
+	
+}
+
+.nav-links {
+	list-style: none;
+	display: flex;
+	gap: 25px;
+}
+
+
+.nav-links li a {
+	color: #ddd;
+	text-decoration: none;
+	font-size: 16;
+	transition: 0.3s;
+	
+	/* menambahkan backgrown link di nav */ 
+	background-color: #FFFFE0; 
+	padding: 10px 20px;
+	border-radius: 20px;
+}
+
+.nav-links li a:hover {
+	background-color: white; 
+	padding: 10px 20px;
+	border-radius: 20px;
+	color: #FFE4E1;
+	font-weight: bold;
+	
+}
+
+.content {
+	padding: 80px 20px;
+	background: linear-gradient(135deg, #FFB6C1	, #FFF8DC);
+	color: white;
+	text-align: center;
+}	
+
+.content ul a {
+	color: #ddd;
+	text-decoration: none;
+	font-size: 18;
+	transition: 0.3s;
+	
+	background-color: #FFFFE0; 
+	padding: 10px 20px;
+	border-radius: 15px;
+}
+
+.content ul a:hover{
+	background-color: white; 
+	padding: 10px 20px;
+	border-radius: 20px;
+	color: #FFE4E1;
+	font-weight: bold;
+}
+
+.logo {
+	background-color: white;
+	color: grey;
+	border-radius: 50%;
+	font-weight: bold;
+	font-size: 21:
+	text-shadow: 0 0 7px #fff, 0 0 21px #ff00de;
+	padding: 10px;
+}
+.skillcard {
+	background-color: #FFF8DC;
+	color: grey;
+	padding: 20px;
+	border-radius: 20px;
+	max-width: 400px;
+	margin: 30px auto;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
